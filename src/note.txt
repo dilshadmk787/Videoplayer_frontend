@@ -1,0 +1,29 @@
+drag and drop mechansim achived using 5 properties
+
+1,dragable
+2,ondragstart
+3,dropable
+4,ondragover
+5,ondrop
+
+dragable
+***********
+when added has an atribute to an element makes the target element dragable
+ondragstart
+*****************
+this call immedatelly call the element drag.usually the content to be drag about set at point
+
+dropable
+**********
+when added has an atribute to an element makes the target element dropable
+
+ondragover
+**********************
+when a added has eventlistener to an element  where the dragged content will be dropped
+
+in another words
+--it sis used to specify where the content to be dropped
+
+ondrop
+***********************
+it has called the dragged content is realsed the element that contain ondragover eventlistener
